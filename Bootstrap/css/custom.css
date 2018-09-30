@@ -1,0 +1,570 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    height: 100%;
+    width: 100%;
+}
+.text-center
+{
+    text-align: center;
+}
+
+/*my css*/
+/*home page*/
+/*navigation bar*/
+@font-face
+{
+    font-family: font1;
+    src: url("../../fonts/Lobster-Regular.ttf");
+}
+@font-face
+{
+    font-family: font2;
+    src: url("../../fonts/LibreBaskerville-Italic.ttf");
+}@font-face
+{
+    font-family: font3;
+    src: url("../../fonts/OldStandard-Italic.ttf");
+}
+.landing-container
+{
+    width: 100%;
+    height: auto;
+}
+.nav-container
+{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px !important;
+}
+.my-nav
+{
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    left: 0;
+    right: 0;
+
+}
+.my-nav img
+{
+    width:50px;
+    height: 50px;
+}
+
+
+
+
+/*landing section with the background image*/
+.landing
+{
+    margin-top: 74px;
+    margin-bottom: 0;
+    width: 100%;
+    height: 560px;
+    background-image: url("../../images/clock.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.landing hr
+{
+    height: 2px;
+    background-color: whitesmoke;
+}
+.landing-text
+{
+    font-family: font1;
+    color: #f3f3f3;
+    width:70%;
+    line-height:45px;
+    padding-top: 200px;
+    margin-right: auto;
+    margin-left: 23%;
+}
+.landing-text2
+{
+    display: none;
+}
+.landing form
+{
+    width: 30%;
+    margin-left: 40%;
+    margin-right: auto;
+}
+.landing-inp
+{
+    height: 35px;
+    border-radius: 0 5px 0 5px;
+    margin-top: 9px;
+}
+.register
+{
+    width: 15%;
+    margin-left: 42%;
+    color: #808000;
+}
+
+
+/*main content after landing*/
+.main-content
+{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0;
+}
+.salutation /*div holding the two hrs and the welcome text*/
+{
+    width: 100%;
+}
+.salutation hr
+{
+    height: 3px;
+    background-color: #008080;
+}
+.welcome
+{
+    font-family: font2;
+    width: 20%;
+    text-decoration: underline;
+    margin-right: auto;
+    margin-left: 45%;
+}
+.after-welcome /*paragraph*/
+{
+    width: 22%;
+    margin-right: auto;
+    margin-left: 40%;
+    font-family: font2;
+}
+
+
+
+/*skills info and icons*/
+.skill-row
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    margin-left: 0;
+    height: auto;
+}
+.skills-info
+{
+    float: left;
+}
+.skills-info img
+{
+    width: 17vw;
+    height: 14vw;
+    margin-left: 24%;
+    margin-top: 34px;
+}
+.icons-col
+{
+    float: right;
+}
+.icons-col img
+{
+    visibility: visible;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 12%;
+    width: 80%;
+    height: 160px;
+    display: block;
+}
+.user-img
+{
+    margin-top: 25% !important;
+    width: 9vw !important;
+    height: 9vw !important;
+}
+.boot4-p
+{
+    font-family: font1;
+    width:80%;
+    margin-left: 16%;
+}
+.responsive-p
+{
+    /*margin: auto;*/
+    font-family: font1;
+    width: 25%;
+    margin-left: 36%;
+    margin-bottom: 40px;
+}
+.user-p
+{
+    font-family: font1;
+    width: 60%;
+    margin-left: 18.6%;
+}
+.my-footer
+{
+    margin-bottom: 0;
+    width: 100% !important;
+    height: auto;
+    margin-left: 0;
+    overflow: no-display;
+    background-color: #141414;
+}
+.my-button img
+{
+    width: 19px;
+    height: 19px;
+}
+.copy
+{
+    line-height: 20px;
+    margin-top: 30px;
+    margin-right: auto;
+    color: white;
+}
+.evo
+{
+    font-family: font2;
+    color: whitesmoke;
+}
+.e-a:hover
+{
+    text-decoration: none;
+}
+.e-a
+{
+    color: #555555;
+}
+li
+{
+    list-style: none;
+}
+.ul-a
+{
+    color: #555555;
+}
+.active
+{
+    color: rgba(15,80,193,0.78);
+}
+.ul-a:hover
+{
+    text-decoration: none;
+}
+.f-h
+{
+    color: whitesmoke;
+}
+.footer-buttons
+{
+    margin-top: 10px;
+}
+.icons img
+{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
+/*my about page*/
+
+.about-container /*container holding right and left partitions after the nav*/
+{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: auto;
+    margin: 90px auto 20px!important;
+    align-content: space-around;
+}
+.flex-row1
+{
+    min-height: 500px;
+    height: auto;
+    display: flex;
+    flex-flow: row;
+}
+.second-row-left
+{
+    color: whitesmoke;
+    background-color: #555555;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.hello
+{
+    font-family: font1;
+    padding-top: 90px;
+    text-align: center;
+    text-decoration: underline;
+}
+.second-row-left hr
+{
+    height: 3px;
+    background-color: whitesmoke;
+}
+.part
+{
+    font-family: font2;
+}
+
+
+/*second row right*/
+
+.flex-container /*second-row-right*/
+{
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-top, .flex-bottom
+{
+    width:100%;
+    height: 49%;
+}
+.flex-top
+{
+    overflow: auto;
+    margin-bottom: 1%;
+}
+
+.comment /*comment form*/
+{
+    font-family: font2;
+    width: 80%;
+    margin-top: 30px;
+    margin-right: 10%;
+    margin-right: 10%;
+}
+
+.inp-c,.comment textarea
+{
+    width: 90%;
+    border: 2px #008080 dotted;
+    height: 50px;
+    max-height: 55px;
+}
+.post-comment /*button*/
+{
+    margin-top: 8px;
+    width:100px;
+    height: 50px;
+    border: 2px #008080 dotted;
+    background-color: yellow;
+}
+.post-comment:hover
+{
+    color: #f5f5f5;
+    background-color: rgba(48,41,27,0.78);
+}
+.flex-bottom
+{
+    overflow: auto;
+    margin-top: 1%;
+}
+
+.phone-p
+{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.email-p
+{
+    margin-left: 20px;
+}
+
+.flex-bottom .phone
+{
+    width: 57px;
+    height: 57px;
+}
+.flex-bottom .number
+{
+    color: #3cffcc;
+}
+
+
+/*the section about me before the footer*/
+.my-pic-div
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: -.6%;
+}
+.pic-name
+{
+  margin: 10px auto 10px auto;
+}
+.me-img
+{
+    display: block;
+    width: 11vw;
+    height: 11vw;
+}
+.name
+{
+    text-align: center;
+    width: auto;
+}
+.my-pic-div table
+{
+    width: 50%;
+    margin-left: 27%;
+    margin-right: 23%;
+}
+.t-icon
+{
+    padding: 7px;
+    width: 39px !important;
+    height: 39px !important;
+}
+.my-pic-div table, tr,th,td
+{
+    border: none;
+}
+
+
+
+
+
+/*registration page*/
+.reg-form-container
+{
+    margin-top: 80px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.reg-form-wrapper *
+{
+    padding: 8px;
+}
+
+.form-header h3
+{
+    text-align: center;
+    color: whitesmoke;
+    background-color: #1dbeff;
+}
+.complete-form
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:5px;
+    background-color: #555555;
+    box-shadow: 0 0 23px 10px #1d2124;
+    max-width: 600px;
+    max-height: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.complete-form p
+{
+    margin: 0;
+}
+.label
+{
+    display: block;
+    text-transform: capitalize;
+    color: #f5f5f5;
+}
+
+.complete-form textarea,.rb
+{
+    grid-column: 1/3;
+}
+.inp, .complete-form textarea
+{
+    width: 100%;
+    height: 38px;
+    border-radius: 0 10px 0 10px;
+    border: 2px #008080 dotted;
+}
+
+.inp:hover
+{
+    background-color: #cccccc;
+}
+.rb
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/*registration page media queries*/
+@media screen and (max-width: 576px)
+{
+    .inp:focus, .inp:hover
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70vw;
+        height: auto;
+        min-height: 34px;
+        grid-column: 1/3;
+        display: block;
+    }
+    .inp:focus .complete-form, inp:hover .complete-form
+    {
+        width: 150vw;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+/*index page media queries*/
+@media screen and (max-width: 768px)
+{
+    .landing
+    {
+        margin-top: 74px;
+        margin-bottom: 0;
+        width: 100%;
+        height: auto;
+        background-image: url("../../images/clock.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .landing-text
+    {
+        display: none;
+    }
+    .landing-text2
+    {
+        display: initial;
+        color: whitesmoke;
+        text-align: center;
+        font-family: font1;
+    }
+
+
+}
