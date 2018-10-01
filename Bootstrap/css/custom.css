@@ -506,7 +506,7 @@ li
     border: 2px #008080 dotted;
 }
 
-.inp:hover
+.inp:hover, .complete-form textarea:hover
 {
     background-color: #cccccc;
 }
